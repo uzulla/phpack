@@ -1,0 +1,22 @@
+{
+  "name": "phpack",
+  "version": "0.1.0",
+  "description": "php pack to electron.",
+  "main": "main.js",
+  "scripts": {
+    "pack": "electron-packager --overwrite .",
+    "open": "electron main.js"
+  },
+  "keywords": [
+    "Electron",
+    "php"
+  ],
+  "author": "uzulla",
+  "license": "MIT",
+  "homepage": "http://cfe.jp",
+  "devDependencies": {},
+  "dependencies": {
+    "electron": "^1.6.11",
+    "electron-packager": "^8.7.2"
+  }
+}
