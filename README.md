@@ -1,14 +1,16 @@
 # phpack
 
-pack php app to osx app.
+pack php app to osx/linux app.
+
+![sample](sample.png)
 
 # install
 
 ```
-$ npm install
+$ npm ci
 ```
 
-# edit
+# edit your app
 
 ```
 vi public/index.php
@@ -25,6 +27,11 @@ $ npm run open
 ```
 $ npm run pack
 
+# osx
 $ cp phpack-darwin-x64/phpack.app /path/to/anywhere/myGrateApp.app
-```
+$ open myGrateApp.app
 
+# linux
+$ cp phpack-darwin-x64/ /path/to/anywhere/phpack-your-app
+$ phpack-your-app/phpack
+```
