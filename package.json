@@ -15,7 +15,7 @@
   "license": "MIT",
   "homepage": "http://cfe.jp",
   "dependencies": {
-    "electron": "^15.5.5",
+    "electron": "^18.3.7",
     "electron-packager": "^15.2.0"
   }
 }
